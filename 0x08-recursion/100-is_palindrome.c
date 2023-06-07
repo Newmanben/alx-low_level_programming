@@ -52,4 +52,4 @@ int helper_palindrome(char *s, int len)
 		return (helper_palindrome(s + 1, len - 2));
 	else
 		return (0);
-
+}
